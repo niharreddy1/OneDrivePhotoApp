@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60304272B97F2009EADA6 /* AppDelegate.swift */; };
 		3AA60307272B97F2009EADA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60306272B97F2009EADA6 /* SceneDelegate.swift */; };
-		3AA60309272B97F2009EADA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60308272B97F2009EADA6 /* ViewController.swift */; };
+		3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60308272B97F2009EADA6 /* SignInViewController.swift */; };
 		3AA6030C272B97F2009EADA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA6030A272B97F2009EADA6 /* Main.storyboard */; };
 		3AA6030E272B97F5009EADA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA6030D272B97F5009EADA6 /* Assets.xcassets */; };
 		3AA60311272B97F5009EADA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA6030F272B97F5009EADA6 /* LaunchScreen.storyboard */; };
+		D11F3F812EF1194639595D14 /* Pods_OneDrivePhotoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A570192C157AA1FA172CC0 /* Pods_OneDrivePhotoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04AB598EA3994C40B71AECAB /* Pods-OneDrivePhotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDrivePhotoApp.debug.xcconfig"; path = "Target Support Files/Pods-OneDrivePhotoApp/Pods-OneDrivePhotoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		17A570192C157AA1FA172CC0 /* Pods_OneDrivePhotoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneDrivePhotoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA60301272B97F2009EADA6 /* OneDrivePhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDrivePhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA60304272B97F2009EADA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AA60306272B97F2009EADA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3AA60308272B97F2009EADA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AA60308272B97F2009EADA6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3AA6030B272B97F2009EADA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AA6030D272B97F5009EADA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AA60310272B97F5009EADA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AA60312272B97F5009EADA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58081121316080BCCBE94CA /* Pods-OneDrivePhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDrivePhotoApp.release.xcconfig"; path = "Target Support Files/Pods-OneDrivePhotoApp/Pods-OneDrivePhotoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11F3F812EF1194639595D14 /* Pods_OneDrivePhotoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				3AA60303272B97F2009EADA6 /* OneDrivePhotoApp */,
 				3AA60302272B97F2009EADA6 /* Products */,
+				5F3EA07B58AC0285F917F9BF /* Pods */,
+				48158D12BCA192659657F79F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +65,30 @@
 			children = (
 				3AA60304272B97F2009EADA6 /* AppDelegate.swift */,
 				3AA60306272B97F2009EADA6 /* SceneDelegate.swift */,
-				3AA60308272B97F2009EADA6 /* ViewController.swift */,
+				3AA60308272B97F2009EADA6 /* SignInViewController.swift */,
 				3AA6030A272B97F2009EADA6 /* Main.storyboard */,
 				3AA6030D272B97F5009EADA6 /* Assets.xcassets */,
 				3AA6030F272B97F5009EADA6 /* LaunchScreen.storyboard */,
 				3AA60312272B97F5009EADA6 /* Info.plist */,
 			);
 			path = OneDrivePhotoApp;
+			sourceTree = "<group>";
+		};
+		48158D12BCA192659657F79F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17A570192C157AA1FA172CC0 /* Pods_OneDrivePhotoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F3EA07B58AC0285F917F9BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04AB598EA3994C40B71AECAB /* Pods-OneDrivePhotoApp.debug.xcconfig */,
+				E58081121316080BCCBE94CA /* Pods-OneDrivePhotoApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AA60315272B97F5009EADA6 /* Build configuration list for PBXNativeTarget "OneDrivePhotoApp" */;
 			buildPhases = (
+				747C578C18397BB9BAA4269A /* [CP] Check Pods Manifest.lock */,
 				3AA602FD272B97F2009EADA6 /* Sources */,
 				3AA602FE272B97F2009EADA6 /* Frameworks */,
 				3AA602FF272B97F2009EADA6 /* Resources */,
+				71CE6170C46C3E1A127663E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +159,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71CE6170C46C3E1A127663E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDrivePhotoApp/Pods-OneDrivePhotoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneDrivePhotoApp/Pods-OneDrivePhotoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneDrivePhotoApp/Pods-OneDrivePhotoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747C578C18397BB9BAA4269A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneDrivePhotoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AA602FD272B97F2009EADA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA60309272B97F2009EADA6 /* ViewController.swift in Sources */,
+				3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */,
 				3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */,
 				3AA60307272B97F2009EADA6 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +352,7 @@
 		};
 		3AA60316272B97F5009EADA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AB598EA3994C40B71AECAB /* Pods-OneDrivePhotoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +381,7 @@
 		};
 		3AA60317272B97F5009EADA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58081121316080BCCBE94CA /* Pods-OneDrivePhotoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

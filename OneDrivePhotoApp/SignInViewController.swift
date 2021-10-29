@@ -7,13 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func signIn() {
+        self.performSegue(withIdentifier: "userSignedIn", sender: nil)
+    }
 }
-
