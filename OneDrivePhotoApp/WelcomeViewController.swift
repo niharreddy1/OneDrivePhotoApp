@@ -25,6 +25,7 @@ class WelcomeViewController: UIViewController {
     }
 
     @IBAction func signOut() {
+        AuthenticationManager.instance.signOut()
         self.performSegue(withIdentifier: "userSignedOut", sender: nil)
     }
 }

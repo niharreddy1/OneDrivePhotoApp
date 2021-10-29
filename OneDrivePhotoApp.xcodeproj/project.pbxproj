@@ -11,6 +11,7 @@
 		3A151EA1272C458B004BEC55 /* CleanUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A151EA0272C458B004BEC55 /* CleanUpViewController.swift */; };
 		3A151EA3272C46FC004BEC55 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A151EA2272C46FC004BEC55 /* SpinnerViewController.swift */; };
 		3A151EA5272C5402004BEC55 /* AuthSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A151EA4272C5402004BEC55 /* AuthSettings.plist */; };
+		3A926C60272C690A00EA901A /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A926C5F272C690A00EA901A /* AuthenticationManager.swift */; };
 		3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60304272B97F2009EADA6 /* AppDelegate.swift */; };
 		3AA60307272B97F2009EADA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60306272B97F2009EADA6 /* SceneDelegate.swift */; };
 		3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60308272B97F2009EADA6 /* SignInViewController.swift */; };
@@ -28,6 +29,7 @@
 		3A151EA2272C46FC004BEC55 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		3A151EA4272C5402004BEC55 /* AuthSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AuthSettings.plist; sourceTree = "<group>"; };
 		3A151EA6272C5650004BEC55 /* OneDrivePhotoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneDrivePhotoApp.entitlements; sourceTree = "<group>"; };
+		3A926C5F272C690A00EA901A /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		3AA60301272B97F2009EADA6 /* OneDrivePhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDrivePhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA60304272B97F2009EADA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AA60306272B97F2009EADA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				3A151EA0272C458B004BEC55 /* CleanUpViewController.swift */,
 				3A151EA2272C46FC004BEC55 /* SpinnerViewController.swift */,
 				3A151EA4272C5402004BEC55 /* AuthSettings.plist */,
+				3A926C5F272C690A00EA901A /* AuthenticationManager.swift */,
 			);
 			path = OneDrivePhotoApp;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */,
 				3A151EA1272C458B004BEC55 /* CleanUpViewController.swift in Sources */,
+				3A926C60272C690A00EA901A /* AuthenticationManager.swift in Sources */,
 				3A151E9F272BA70A004BEC55 /* WelcomeViewController.swift in Sources */,
 				3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */,
 				3A151EA3272C46FC004BEC55 /* SpinnerViewController.swift in Sources */,
