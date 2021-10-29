@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         return MSALPublicClientApplication.handleMSALResponse(url, sourceApplication: sourceApplication)
     }
-
+    
 
 }
 
