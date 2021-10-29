@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A151E9F272BA70A004BEC55 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A151E9E272BA70A004BEC55 /* WelcomeViewController.swift */; };
+		3A151EA1272C458B004BEC55 /* CleanUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A151EA0272C458B004BEC55 /* CleanUpViewController.swift */; };
+		3A151EA3272C46FC004BEC55 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A151EA2272C46FC004BEC55 /* SpinnerViewController.swift */; };
 		3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60304272B97F2009EADA6 /* AppDelegate.swift */; };
 		3AA60307272B97F2009EADA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60306272B97F2009EADA6 /* SceneDelegate.swift */; };
 		3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60308272B97F2009EADA6 /* SignInViewController.swift */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		04AB598EA3994C40B71AECAB /* Pods-OneDrivePhotoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDrivePhotoApp.debug.xcconfig"; path = "Target Support Files/Pods-OneDrivePhotoApp/Pods-OneDrivePhotoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		17A570192C157AA1FA172CC0 /* Pods_OneDrivePhotoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneDrivePhotoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A151E9E272BA70A004BEC55 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3A151EA0272C458B004BEC55 /* CleanUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUpViewController.swift; sourceTree = "<group>"; };
+		3A151EA2272C46FC004BEC55 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		3AA60301272B97F2009EADA6 /* OneDrivePhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDrivePhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA60304272B97F2009EADA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AA60306272B97F2009EADA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				3AA6030D272B97F5009EADA6 /* Assets.xcassets */,
 				3AA6030F272B97F5009EADA6 /* LaunchScreen.storyboard */,
 				3AA60312272B97F5009EADA6 /* Info.plist */,
+				3A151E9E272BA70A004BEC55 /* WelcomeViewController.swift */,
+				3A151EA0272C458B004BEC55 /* CleanUpViewController.swift */,
+				3A151EA2272C46FC004BEC55 /* SpinnerViewController.swift */,
 			);
 			path = OneDrivePhotoApp;
 			sourceTree = "<group>";
@@ -207,7 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */,
+				3A151EA1272C458B004BEC55 /* CleanUpViewController.swift in Sources */,
+				3A151E9F272BA70A004BEC55 /* WelcomeViewController.swift in Sources */,
 				3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */,
+				3A151EA3272C46FC004BEC55 /* SpinnerViewController.swift in Sources */,
 				3AA60307272B97F2009EADA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

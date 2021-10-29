@@ -40,34 +40,90 @@
             </objects>
             <point key="canvasLocation" x="-512" y="-80"/>
         </scene>
-        <!--Item 2-->
+        <!--Clean Up-->
         <scene sceneID="uUE-H1-9NB">
             <objects>
-                <viewController id="jKQ-xt-H6y" sceneMemberID="viewController">
+                <viewController id="jKQ-xt-H6y" customClass="CleanUpViewController" customModule="OneDrivePhotoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FK7-kg-Y87">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckd-sX-7cZ">
+                                <rect key="frame" x="143" y="432.5" width="128" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Clean Up Space"/>
+                                <connections>
+                                    <action selector="triggerCleanUpSpace" destination="jKQ-xt-H6y" eventType="touchUpInside" id="aOJ-5b-OS7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PZ7-kP-1L4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ckd-sX-7cZ" firstAttribute="centerY" secondItem="FK7-kg-Y87" secondAttribute="centerY" id="36A-jF-RrG"/>
+                            <constraint firstItem="ckd-sX-7cZ" firstAttribute="centerX" secondItem="FK7-kg-Y87" secondAttribute="centerX" id="IlR-m9-J8l"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="IE8-Q9-mZg"/>
+                    <tabBarItem key="tabBarItem" title="Clean Up" id="IE8-Q9-mZg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJq-jn-vdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1137" y="223"/>
         </scene>
-        <!--Item 1-->
+        <!--User-->
         <scene sceneID="gev-MS-MfO">
             <objects>
-                <viewController id="u9X-iC-0iS" sceneMemberID="viewController">
+                <viewController id="u9X-iC-0iS" customClass="WelcomeViewController" customModule="OneDrivePhotoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GIL-Kx-BOM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X9e-uS-DJr">
+                                <rect key="frame" x="109" y="44" width="196" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="WNI-69-yzk"/>
+                                    <constraint firstAttribute="height" constant="196" id="jZU-SD-AYK"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cta-0p-w4U">
+                                <rect key="frame" x="186" y="248" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmU-Cw-na0">
+                                <rect key="frame" x="191.5" y="277" width="31" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2U-BD-nUL">
+                                <rect key="frame" x="167" y="306" width="80" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sign Out"/>
+                                <connections>
+                                    <action selector="signOut" destination="u9X-iC-0iS" eventType="touchUpInside" id="136-jP-lw5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="sWD-TH-opg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="X9e-uS-DJr" firstAttribute="centerX" secondItem="GIL-Kx-BOM" secondAttribute="centerX" id="29j-B5-cGG"/>
+                            <constraint firstItem="X9e-uS-DJr" firstAttribute="centerX" secondItem="JmU-Cw-na0" secondAttribute="centerX" id="JGK-EX-ktE"/>
+                            <constraint firstItem="h2U-BD-nUL" firstAttribute="top" secondItem="JmU-Cw-na0" secondAttribute="bottom" constant="14" id="MyH-DK-FTo"/>
+                            <constraint firstItem="cta-0p-w4U" firstAttribute="top" secondItem="X9e-uS-DJr" secondAttribute="bottom" constant="8" symbolic="YES" id="UTe-Pr-BYJ"/>
+                            <constraint firstItem="JmU-Cw-na0" firstAttribute="top" secondItem="cta-0p-w4U" secondAttribute="bottom" constant="8" symbolic="YES" id="azA-Jm-zig"/>
+                            <constraint firstItem="X9e-uS-DJr" firstAttribute="centerX" secondItem="h2U-BD-nUL" secondAttribute="centerX" id="kxg-hh-CUP"/>
+                            <constraint firstItem="X9e-uS-DJr" firstAttribute="centerX" secondItem="cta-0p-w4U" secondAttribute="centerX" id="nfb-3I-SkO"/>
+                            <constraint firstItem="X9e-uS-DJr" firstAttribute="top" secondItem="sWD-TH-opg" secondAttribute="top" id="v1S-gA-Wrk"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="JJ3-SI-aoS"/>
+                    <tabBarItem key="tabBarItem" title="User" id="JJ3-SI-aoS"/>
                     <connections>
+                        <outlet property="userDisplayName" destination="cta-0p-w4U" id="rPh-57-rJw"/>
+                        <outlet property="userEmail" destination="JmU-Cw-na0" id="98I-X4-bRn"/>
+                        <outlet property="userProfilePhoto" destination="X9e-uS-DJr" id="fOB-4b-vvS"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="userSignedOut" modalPresentationStyle="fullScreen" id="r4p-nn-e5x"/>
                     </connections>
                 </viewController>
