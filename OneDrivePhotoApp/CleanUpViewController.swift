@@ -20,7 +20,7 @@ class CleanUpViewController: UIViewController {
         let cameraRoll = fetchResults
         let group = DispatchGroup()
         
-        for i in 0...25{
+        for i in 0..<cameraRoll.count{
             let assetName = assetCreationDate.string(from: (cameraRoll[i].creationDate)!) // if the for loop went up do count would we need to force unwrap
             
             //Search for an asset with the same name in user's OneDrive
