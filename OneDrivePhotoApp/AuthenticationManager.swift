@@ -84,7 +84,7 @@ class AuthenticationManager: NSObject, MSAuthenticationProvider {
                     return
                 }
 
-                print("Got token silently: \(tokenResult.accessToken)")
+                //print("Got token silently: \(tokenResult.accessToken)")
                 completion(tokenResult.accessToken, nil)
             })
         } else {

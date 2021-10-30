@@ -56,19 +56,31 @@
                                     <action selector="triggerCleanUpSpace" destination="jKQ-xt-H6y" eventType="touchUpInside" id="aOJ-5b-OS7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xag-bd-RfO">
+                                <rect key="frame" x="38" y="152" width="338.5" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="144" id="JdN-Bi-NE8"/>
+                                </constraints>
+                                <string key="text">Do not forget to:   1. Use OneDrive "Camera Upload" feature to backup your media   2. Wait up to a day for MS Graph to index items   3. Proceed to "Clean Up Space"</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PZ7-kP-1L4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ckd-sX-7cZ" firstAttribute="centerY" secondItem="FK7-kg-Y87" secondAttribute="centerY" id="36A-jF-RrG"/>
                             <constraint firstItem="ckd-sX-7cZ" firstAttribute="centerX" secondItem="FK7-kg-Y87" secondAttribute="centerX" id="IlR-m9-J8l"/>
+                            <constraint firstItem="Xag-bd-RfO" firstAttribute="top" secondItem="PZ7-kP-1L4" secondAttribute="top" constant="108" id="OUa-V3-4K6"/>
+                            <constraint firstItem="Xag-bd-RfO" firstAttribute="centerX" secondItem="FK7-kg-Y87" secondAttribute="centerX" id="fGh-1P-JK0"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Clean Up" id="IE8-Q9-mZg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJq-jn-vdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1137" y="223"/>
+            <point key="canvasLocation" x="1134.7826086956522" y="222.99107142857142"/>
         </scene>
         <!--User-->
         <scene sceneID="gev-MS-MfO">

@@ -13,6 +13,9 @@
 		3A151EA5272C5402004BEC55 /* AuthSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A151EA4272C5402004BEC55 /* AuthSettings.plist */; };
 		3A926C60272C690A00EA901A /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A926C5F272C690A00EA901A /* AuthenticationManager.swift */; };
 		3A926C62272C6A6B00EA901A /* GraphManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A926C61272C6A6B00EA901A /* GraphManager.swift */; };
+		3A926C64272C99E000EA901A /* ProcessMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A926C63272C99E000EA901A /* ProcessMedia.swift */; };
+		3A926C66272CA03E00EA901A /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A926C65272CA03E00EA901A /* Root.swift */; };
+		3A926C68272CA05B00EA901A /* AssetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A926C67272CA05B00EA901A /* AssetData.swift */; };
 		3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60304272B97F2009EADA6 /* AppDelegate.swift */; };
 		3AA60307272B97F2009EADA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60306272B97F2009EADA6 /* SceneDelegate.swift */; };
 		3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA60308272B97F2009EADA6 /* SignInViewController.swift */; };
@@ -32,6 +35,9 @@
 		3A151EA6272C5650004BEC55 /* OneDrivePhotoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneDrivePhotoApp.entitlements; sourceTree = "<group>"; };
 		3A926C5F272C690A00EA901A /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		3A926C61272C6A6B00EA901A /* GraphManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphManager.swift; sourceTree = "<group>"; };
+		3A926C63272C99E000EA901A /* ProcessMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessMedia.swift; sourceTree = "<group>"; };
+		3A926C65272CA03E00EA901A /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		3A926C67272CA05B00EA901A /* AssetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetData.swift; sourceTree = "<group>"; };
 		3AA60301272B97F2009EADA6 /* OneDrivePhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDrivePhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA60304272B97F2009EADA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AA60306272B97F2009EADA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 				3A151EA4272C5402004BEC55 /* AuthSettings.plist */,
 				3A926C5F272C690A00EA901A /* AuthenticationManager.swift */,
 				3A926C61272C6A6B00EA901A /* GraphManager.swift */,
+				3A926C63272C99E000EA901A /* ProcessMedia.swift */,
+				3A926C65272CA03E00EA901A /* Root.swift */,
+				3A926C67272CA05B00EA901A /* AssetData.swift */,
 			);
 			path = OneDrivePhotoApp;
 			sourceTree = "<group>";
@@ -227,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A926C64272C99E000EA901A /* ProcessMedia.swift in Sources */,
 				3AA60309272B97F2009EADA6 /* SignInViewController.swift in Sources */,
 				3A151EA1272C458B004BEC55 /* CleanUpViewController.swift in Sources */,
 				3A926C62272C6A6B00EA901A /* GraphManager.swift in Sources */,
@@ -235,6 +245,8 @@
 				3AA60305272B97F2009EADA6 /* AppDelegate.swift in Sources */,
 				3A151EA3272C46FC004BEC55 /* SpinnerViewController.swift in Sources */,
 				3AA60307272B97F2009EADA6 /* SceneDelegate.swift in Sources */,
+				3A926C68272CA05B00EA901A /* AssetData.swift in Sources */,
+				3A926C66272CA03E00EA901A /* Root.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

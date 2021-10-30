@@ -46,4 +46,21 @@ class GraphManager {
         // Execute the request
         meDataTask?.execute()
     }
+    
+    
+    public func searchForPHAssestInOneDrive(fileName: String, completion: @escaping(Data?, Error?) -> Void){
+            
+        let assetRequest = NSMutableURLRequest(url: URL(string: "https://graph.microsoft.com/v1.0/me/drive/root/search(q='\(fileName)')?select=name")!)
+
+            let assetDataTask = MSURLSessionDataTask(request: assetRequest, client: self.client, completion: {
+                (data: Data?, response: URLResponse?, graphError: Error?) in
+                guard let assetData = data, graphError == nil else {
+                    completion(nil, graphError)
+                    return
+                }
+                
+                completion(assetData, nil)
+            })
+            assetDataTask?.execute()
+        }
 }
